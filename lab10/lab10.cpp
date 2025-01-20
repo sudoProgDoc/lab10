@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void pack(int n, int *a, int *b)
+void pack(int n, int *a, int *b)//создаем массив, где индекс это число, а значение ячейки - количество повторений этого числа
 {
     for (int i = 0;i < 18;i++) b[i] = 0;
     for (int i = 0; i < n; i++) b[a[i]]++;
